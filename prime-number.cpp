@@ -4,11 +4,11 @@ using namespace std;
 int main()
 {
     int num, i, count = 0;
-    printf("Enter any positive number : ");
+    cout << "Enter any numbers: ";
     cin >> num;
 
     for (i = 2; i < num; i++)
-{
+    {
 
         if (num % i == 0)
         {
